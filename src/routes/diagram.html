@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="800" fill="#f6f9fc" rx="0" ry="0"/>
+  
+  <!-- Title with enhanced styling -->
+  <rect x="150" y="20" width="500" height="70" rx="10" ry="10" fill="#ffffff" stroke="#4a56a6" stroke-width="2"/>
+  <text x="400" y="50" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#4a56a6">Web E-commerce for Laveona Distributor</text>
+  <text x="400" y="75" font-family="Arial" font-size="16" text-anchor="middle" fill="#4a56a6">San Pascual, Batangas</text>
+
+  <!-- Improved Center Circle with gradient and shadow -->
+  <defs>
+    <linearGradient id="center-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f0f5ff"/>
+    </linearGradient>
+    <filter id="drop-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.3"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <circle cx="400" cy="400" r="130" fill="url(#center-gradient)" stroke="#4a56a6" stroke-width="3" filter="url(#drop-shadow)"/>
+  <circle cx="400" cy="400" r="115" fill="none" stroke="#6979cc" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="400" y="380" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle" fill="#4a56a6">E-commerce</text>
+  <text x="400" y="415" font-family="Arial" font-size="26" font-weight="bold" text-anchor="middle" fill="#4a56a6">System</text>
+  <text x="400" y="445" font-family="Arial" font-size="12" text-anchor="middle" fill="#4a56a6">Laveona Hotel Supplies</text>
+
+  <!-- Enhanced Outer Circle Segments with gradients -->
+  <defs>
+    <!-- Gradient definitions for segments -->
+    <linearGradient id="input-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffa01e"/>
+      <stop offset="100%" style="stop-color:#ffbf5e"/>
+    </linearGradient>
+    <linearGradient id="process-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7e57c2"/>
+      <stop offset="100%" style="stop-color:#9d7ede"/>
+    </linearGradient>
+    <linearGradient id="output-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00ad9f"/>
+      <stop offset="100%" style="stop-color:#2eddce"/>
+    </linearGradient>
+    <linearGradient id="feedback-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fe6642"/>
+      <stop offset="100%" style="stop-color:#ff8f74"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Customer Input segment with improved design -->
+  <path d="M 400 270 A 130 130 0 0 1 530 400 L 415 400 A 15 15 0 0 0 400 385 Z" fill="url(#input-gradient)" stroke="white" stroke-width="2.5" filter="url(#drop-shadow)"/>
+  <text>
+    <textPath href="#input-path" startOffset="40%" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="white">INPUT</textPath>
+  </text>
+  <path id="input-path" d="M 450 305 A 80 80 0 0 1 515 395" fill="none"/>
+
+  <!-- Processing segment with improved design -->
+  <path d="M 530 400 A 130 130 0 0 1 400 530 L 400 415 A 15 15 0 0 0 415 400 Z" fill="url(#process-gradient)" stroke="white" stroke-width="2.5" filter="url(#drop-shadow)"/>
+  <text>
+    <textPath href="#process-path" startOffset="50%" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="white">PROCESS</textPath>
+  </text>
+  <path id="process-path" d="M 515 445 A 80 80 0 0 1 400 495" fill="none"/>
+
+  <!-- Shipping segment with improved design -->
+  <path d="M 400 530 A 130 130 0 0 1 270 400 L 385 400 A 15 15 0 0 0 400 415 Z" fill="url(#output-gradient)" stroke="white" stroke-width="2.5" filter="url(#drop-shadow)"/>
+  <text>
+    <textPath href="#output-path" startOffset="50%" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="white">OUTPUT</textPath>
+  </text>
+  <path id="output-path" d="M 350 495 A 80 80 0 0 1 285 400" fill="none"/>
+
+  <!-- Feedback segment with improved design -->
+  <path d="M 270 400 A 130 130 0 0 1 400 270 L 400 385 A 15 15 0 0 0 385 400 Z" fill="url(#feedback-gradient)" stroke="white" stroke-width="2.5" filter="url(#drop-shadow)"/>
+  <text>
+    <textPath href="#feedback-path" startOffset="50%" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="white">FEEDBACK</textPath>
+  </text>
+  <path id="feedback-path" d="M 285 355 A 80 80 0 0 1 400 305" fill="none"/>
+
+  <!-- Enhanced External bubbles with details -->
+  <defs>
+    <filter id="bubble-shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+      <feOffset dx="0" dy="3" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.2"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Input bubble -->
+  <rect x="560" y="210" rx="25" ry="25" width="175" height="85" fill="url(#input-gradient)" stroke="white" stroke-width="2" filter="url(#bubble-shadow)"/>
+  <text x="647" y="240" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="white">Customer Registration</text>
+  <text x="647" y="265" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="white">Product Search</text>
+  <text x="647" y="283" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Shopping Cart Management</text>
+  
+  <!-- Enhanced connector with curve -->
+  <path d="M 575 255 C 550 275, 520 300, 505 350" stroke="#ffa01e" stroke-width="3" fill="none"/>
+  <circle cx="505" cy="350" r="6" fill="#ffa01e" stroke="white" stroke-width="1"/>
+
+  <!-- Process bubble -->
+  <rect x="570" y="500" rx="25" ry="25" width="175" height="85" fill="url(#process-gradient)" stroke="white" stroke-width="2" filter="url(#bubble-shadow)"/>
+  <text x="657" y="530" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="white">Order Processing</text>
+  <text x="657" y="555" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="white">Payment Gateway</text>
+  <text x="657" y="573" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Inventory Management</text>
+  
+  <!-- Enhanced connector with curve -->
+  <path d="M 580 530 C 560 510, 530 480, 505 450" stroke="#7e57c2" stroke-width="3" fill="none"/>
+  <circle cx="505" cy="450" r="6" fill="#7e57c2" stroke="white" stroke-width="1"/>
+
+  <!-- Output bubble -->
+  <rect x="65" y="500" rx="25" ry="25" width="175" height="85" fill="url(#output-gradient)" stroke="white" stroke-width="2" filter="url(#bubble-shadow)"/>
+  <text x="152" y="530" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="white">Order Confirmation</text>
+  <text x="152" y="555" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="white">Shipping Details</text>
+  <text x="152" y="573" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Invoice Generation</text>
+  
+  <!-- Enhanced connector with curve -->
+  <path d="M 235 530 C 260 510, 300 480, 330 455" stroke="#00ad9f" stroke-width="3" fill="none"/>
+  <circle cx="330" cy="455" r="6" fill="#00ad9f" stroke="white" stroke-width="1"/>
+
+  <!-- Feedback bubble -->
+  <rect x="65" y="210" rx="25" ry="25" width="175" height="85" fill="url(#feedback-gradient)" stroke="white" stroke-width="2" filter="url(#bubble-shadow)"/>
+  <text x="152" y="240" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="white">Customer Reviews</text>
+  <text x="152" y="265" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="white">Support System</text>
+  <text x="152" y="283" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Quality Improvement</text>
+  
+  <!-- Enhanced connector with curve -->
+  <path d="M 235 255 C 260 280, 300 320, 330 345" stroke="#fe6642" stroke-width="3" fill="none"/>
+  <circle cx="330" cy="345" r="6" fill="#fe6642" stroke="white" stroke-width="1"/>
+
+  <!-- Database bubble with improved design -->
+  <defs>
+    <linearGradient id="database-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#317eb1"/>
+      <stop offset="100%" style="stop-color:#5da7db"/>
+    </linearGradient>
+  </defs>
+  
+  <rect x="320" y="110" rx="25" ry="25" width="160" height="70" fill="url(#database-gradient)" stroke="white" stroke-width="2" filter="url(#bubble-shadow)"/>
+  <text x="400" y="145" font-family="Arial" font-size="15" font-weight="bold" text-anchor="middle" fill="white">Product Database</text>
+  <text x="400" y="165" font-family="Arial" font-size="12" text-anchor="middle" fill="white">Hotel Supply Inventory</text>
+  
+  <!-- Enhanced connector with curve -->
+  <path d="M 400 180 C 400 200, 400 230, 400 270" stroke="#317eb1" stroke-width="3" fill="none"/>
+  <circle cx="400" cy="270" r="6" fill="#317eb1" stroke="white" stroke-width="1"/>
+
+  <!-- Enhanced arrows indicating flow direction -->
+  <path d="M 470 315 A 30 30 0 0 1 500 345" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <polygon points="505,350 500,335 485,345" fill="white"/>
+
+  <path d="M 500 455 A 30 30 0 0 1 470 485" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <polygon points="465,490 480,480 485,465" fill="white"/>
+
+  <path d="M 330 485 A 30 30 0 0 1 300 455" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <polygon points="295,450 310,460 315,475" fill="white"/>
+
+  <path d="M 300 345 A 30 30 0 0 1 330 315" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <polygon points="335,310 320,320 315,335" fill="white"/>
+  
+  <!-- Footer -->
+  <text x="400" y="680" font-family="Arial" font-size="14" text-anchor="middle" fill="#555">Input-Process-Output Circular Flow for E-commerce System</text>
+  <text x="400" y="700" font-family="Arial" font-size="12" font-style="italic" text-anchor="middle" fill="#777">Laveona Distributor of Hotel Supplies • San Pascual, Batangas</text>
+</svg>

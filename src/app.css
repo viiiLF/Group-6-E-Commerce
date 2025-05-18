@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&display=swap');
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+.font-leckerli {
+	font-family: 'Leckerli One', cursive;
+}
+
+.font-lemon {
+	font-family: 'Lemon', serif;
+}
+
+.text-stroke {
+	color: black;
+
+	text-shadow:
+		-1px -1px 0 rgba(12, 212, 12, 0.751),
+		2px -2px 0 rgba(12, 212, 12, 0.751),
+		-2px 2px 0 rgba(12, 212, 12, 0.751),
+		2px 2px 0 rgba(12, 212, 12, 0.751);
+}
+
+.text-stroke-thick {
+	color: white;
+
+	text-shadow:
+		-2px -2px 0 black,
+		2px -2px 0 black,
+		-2px 2px 0 black,
+		2px 2px 0 black;
+}
+
+.text-shadow-green {
+	text-shadow: 2px 2px 4px rgba(0, 128, 0, 0.98);
+}
+
+.text-shadow-green-thick {
+	text-shadow: 4px 4px 8px rgb(0, 128, 0);
+}
+
+.text-outline-green {
+	color: white;
+
+	text-shadow:
+		-1px -1px 0 green,
+		1px -1px 0 green,
+		-1px 1px 0 green,
+		1px 1px 0 green;
+}
+
+.text-outline-green-thick {
+	color: white;
+
+	text-shadow:
+		-2px -2px 0 green,
+		2px -2px 0 green,
+		-2px 2px 0 green,
+		2px 2px 0 green;
+}

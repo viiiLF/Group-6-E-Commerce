@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 800 600">
+  <!-- Styles -->
+  <defs>
+    <style>
+      .title { font-family: Arial; font-size: 18px; font-weight: bold; }
+      .box { fill: #f0f8ff; stroke: #4682b4; stroke-width: 2; }
+      .user-box { fill: #e6f7ff; stroke: #1890ff; stroke-width: 2; }
+      .admin-box { fill: #fff1f0; stroke: #ff4d4f; stroke-width: 2; }
+      .system-box { fill: #f6ffed; stroke: #52c41a; stroke-width: 2; }
+      .label { font-family: Arial; font-size: 12px; text-anchor: middle; }
+      .arrow { stroke: #666; stroke-width: 1.5; marker-end: url(#arrowhead); fill: none; }
+      .divider { stroke: #ccc; stroke-width: 1.5; stroke-dasharray: 5,3; }
+      .group-label { font-family: Arial; font-size: 14px; font-weight: bold; }
+    </style>
+    
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="#ffffff" />
+  
+  <!-- Title -->
+  <text x="400" y="30" class="title" text-anchor="middle">E-commerce System Flowchart</text>
+  
+  <!-- System border -->
+  <rect x="50" y="50" width="700" height="530" rx="10" ry="10" fill="#fafafa" stroke="#d9d9d9" stroke-width="1" />
+  
+  <!-- User/Admin Divider -->
+  <line x1="50" x2="750" y1="300" y2="300" class="divider" />
+  
+  <!-- Section Labels -->
+  <text x="120" y="80" class="group-label">User Interface</text>
+  <text x="120" y="330" class="group-label">Admin Interface</text>
+  
+  <!-- User Modules -->
+  <!-- Authentication Group -->
+  <rect x="100" y="100" width="180" height="80" rx="5" ry="5" class="user-box" />
+  <text x="190" y="130" class="label">Authentication</text>
+  <text x="190" y="150" class="label" font-size="10">LOGIN, REGISTRATION,</text>
+  <text x="190" y="165" class="label" font-size="10">FORGOT PASSWORD</text>
+  
+  <!-- Browse Products -->
+  <rect x="340" y="100" width="120" height="50" rx="5" ry="5" class="user-box" />
+  <text x="400" y="130" class="label">Browse Products</text>
+  
+  <!-- Place Order -->
+  <rect x="340" y="180" width="120" height="50" rx="5" ry="5" class="user-box" />
+  <text x="400" y="210" class="label">Place Order</text>
+  
+  <!-- Make Payment -->
+  <rect x="520" y="180" width="120" height="50" rx="5" ry="5" class="user-box" />
+  <text x="580" y="210" class="label">Make Payment</text>
+  
+  <!-- Admin Modules -->
+  <!-- Manage Products -->
+  <rect x="100" y="350" width="160" height="50" rx="5" ry="5" class="admin-box" />
+  <text x="180" y="380" class="label">Manage Products</text>
+  
+  <!-- Process Orders -->
+  <rect x="320" y="350" width="160" height="50" rx="5" ry="5" class="admin-box" />
+  <text x="400" y="380" class="label">Process Orders</text>
+  
+  <!-- Appointment Record -->
+  <rect x="540" y="350" width="160" height="50" rx="5" ry="5" class="admin-box" />
+  <text x="620" y="380" class="label">Appointment Record</text>
+  
+  <!-- System Components -->
+  <!-- Database -->
+  <rect x="320" y="450" width="160" height="50" rx="5" ry="5" class="system-box" />
+  <text x="400" y="480" class="label">Database</text>
+  
+  <!-- Payment Gateway -->
+  <rect x="540" y="450" width="160" height="50" rx="5" ry="5" class="system-box" />
+  <text x="620" y="480" class="label">Payment Gateway</text>
+  
+  <!-- User Flow Connections -->
+  <!-- Auth to Browse -->
+  <path d="M 280 130 H 320 A 10 10 0 0 1 330 140 V 125 A 10 10 0 0 0 340 115 H 340" class="arrow" />
+  
+  <!-- Browse to Order -->
+  <path d="M 400 150 V 180" class="arrow" />
+  
+  <!-- Order to Payment -->
+  <path d="M 460 205 H 520" class="arrow" />
+  
+  <!-- Payment to Database -->
+  <path d="M 580 230 V 425 A 10 10 0 0 1 570 435 H 480" class="arrow" />
+  
+  <!-- Admin Flow Connections -->
+  <!-- Manage Products to DB -->
+  <path d="M 180 400 V 475 H 320" class="arrow" />
+  
+  <!-- Process Orders to DB -->
+  <path d="M 400 400 V 450" class="arrow" />
+  
+  <!-- Appointment Record to DB -->
+  <path d="M 620 400 V 425 A 10 10 0 0 1 610 435 H 480" class="arrow" />
+  
+  <!-- Payment Gateway to DB -->
+  <path d="M 540 475 H 480" class="arrow" />
+  
+  <!-- Database to Browse Products -->
+  <path d="M 320 465 H 100 A 10 10 0 0 1 90 455 V 125 A 10 10 0 0 1 100 115 H 340" class="arrow" />
+  
+  <!-- Legend -->
+  <rect x="600" y="80" width="15" height="15" class="user-box" />
+  <text x="620" y="93" class="label" text-anchor="start" font-size="11">User Modules</text>
+  
+  <rect x="600" y="100" width="15" height="15" class="admin-box" />
+  <text x="620" y="113" class="label" text-anchor="start" font-size="11">Admin Modules</text>
+  
+  <rect x="600" y="120" width="15" height="15" class="system-box" />
+  <text x="620" y="133" class="label" text-anchor="start" font-size="11">System Components</text>
+</svg>
