@@ -1,0 +1,69 @@
+{
+	"/": [],
+	"/Home": [],
+	"/Home/faq": [],
+	"/admin": [
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/admin/+layout.server.ts"
+	],
+	"/admin/analytics": [
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/admin/analytics/+server.ts"
+	],
+	"/admin/customers": [
+		"src/routes/admin/+layout.server.ts"
+	],
+	"/admin/login": [
+		"src/routes/admin/+layout.server.ts"
+	],
+	"/admin/orders": [
+		"src/routes/admin/+layout.server.ts"
+	],
+	"/admin/products": [
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/admin/products/+server.ts"
+	],
+	"/admin/products/new": [
+		"src/routes/admin/+layout.server.ts"
+	],
+	"/admin/settings": [
+		"src/routes/admin/+layout.server.ts",
+		"src/routes/admin/settings/+server.ts"
+	],
+	"/api/analytics": [
+		"src/routes/api/analytics/+server.ts"
+	],
+	"/api/auth": [
+		"src/routes/api/auth/+server.ts"
+	],
+	"/api/checkout": [
+		"src/routes/api/checkout/+server.ts"
+	],
+	"/api/customers": [
+		"src/routes/api/customers/+server.ts"
+	],
+	"/api/orders": [
+		"src/routes/api/orders/+server.ts"
+	],
+	"/api/orders/bulk-delete": [
+		"src/routes/api/orders/bulk-delete/+server.ts"
+	],
+	"/api/products": [
+		"src/routes/api/products/+server.ts"
+	],
+	"/api/settings": [
+		"src/routes/api/settings/+server.ts"
+	],
+	"/api/settings/categories": [
+		"src/routes/api/settings/categories/+server.ts"
+	],
+	"/api/user/login": [
+		"src/routes/api/user/login/+server.ts"
+	],
+	"/api/user/register": [
+		"src/routes/api/user/register/+server.ts"
+	],
+	"/api/user/reset": [],
+	"/shop": [],
+	"/shop/cart": []
+}
